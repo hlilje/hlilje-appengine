@@ -20,8 +20,8 @@ func root(w http.ResponseWriter, r *http.Request) {
 	index := Index {
 		Title: "hlilje",
 	}
-    err := indexTemplate.Execute(w, index)
 
+    err := indexTemplate.Execute(w, index)
     if err != nil {
         http.Error(w, err.Error(), http.StatusInternalServerError)
     }
