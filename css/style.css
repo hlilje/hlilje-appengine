@@ -1,9 +1,5 @@
-body {
-  font-family: Verdana, Helvetica, sans-serif;
-  text-align: center;
-}
-
-p {
-  font-style: bold;
-  font-size: 30px;
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
 }
